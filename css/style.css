@@ -1,0 +1,594 @@
+/*Home page.css*/
+body
+  {
+    background-color:#e3e6ea;
+    margin: 0;
+  }
+.img-container
+{
+    background-image: url(../Images/canada%20mountain%20banner.jpg);
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+.logo
+{
+    float: left;
+    margin-right: 70px;
+    width: 200px;
+    height: 120px;
+}
+.apply-now-btn
+{
+    float: right;
+    width:170px;
+    height: 50px;
+}
+.message-btn
+{
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+.nav
+ {
+  font-family:sans-serif;
+  overflow: hidden;
+  background:#ffc6c6;
+  text-align: center;
+}
+
+
+li
+  {
+  display:inline;
+  }
+
+
+a{
+  text-decoration: none;
+  color:#ff0000;
+  text-align: center;
+  font-weight: bold;
+}
+.nav-bar{
+  text-decoration: none;
+  color:#ff0000;
+  text-align: center;
+  font-weight: bold;
+  padding:20px;
+
+}
+
+a:hover
+{
+  color: #4a41f4;
+  cursor: pointer;
+}
+
+.main
+{
+  text-align: center;
+  padding: 90px;
+  font-size: 20pt;
+  color:#f44141;
+  font-family: sans-serif;
+  margin-top: 0 auto;
+}
+.welcome-text
+{
+  color: red;
+  font-family: sans-serif;
+  font-size: 25pt;
+}
+.facebooklogo
+ {
+  height: 50px;
+  size: 80px
+  align:left;
+}
+.twitterlogo
+{
+  height: 50px;
+  size: 80px
+  align:left;
+}
+.youtubelogo
+{
+  height: 50px;
+  size: 80px
+  align:left;
+}
+.phonenumber
+{
+  font-size: 20pt;
+  color:black;
+  font-weight: bold;
+}
+.email
+{
+  font-size: 20pt;
+  color:black;
+  font-weight: bold;
+}
+.register
+{
+  font-size: 20pt;
+  text-align: center;
+    font-family:sans-serif;
+}
+
+/*Home page footer*/
+
+#footer{
+  width: 100%;
+  height:200px;
+  background-color:#ffc6c6;
+  text-align: center;
+}
+.facebook-logo{
+  height: 50px;
+  size: 100px;
+  align:left;
+}
+.youtube-logo{
+  height: 50px;
+  size: 80px
+  align:left;
+}
+.twitter-logo{
+  height: 50px;
+  size: 80px;
+  align:left;
+}
+.phonenumber{
+  font-size: 20px;
+  text-align: right;
+  color:black;
+  font-weight: bold;
+  margin-top: 30PX;
+}
+.email{
+  font-size: 20px;
+  text-align: right;
+  color:black;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.register-btn{
+  width: 190px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #FF0000;
+  color:#FFFFFF;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 10pt;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.column-1, .column-2, .column-3{
+    float: left;
+    padding: 10px;
+}
+.column-1{
+    width: 35%;
+
+}
+.column-2{
+    width: 35%;
+}
+.column-3{
+    width: 25%
+}
+.follwo-canada{
+    font-family: sans-serif
+}
+/*About page.css*/
+.hyberlink{
+  color: blue;
+}
+p{
+  color:red;                                        ff0505;
+  font-family: sans-serif;
+  font-size: 18pt;
+}
+.about-title{
+text-align:center;
+width: 300px;
+height: 40px;
+color: red;
+border: 1px solid #ffffff;
+border width: 300px;
+font-family: courier;
+margin-left:700px;
+}
+.about-img{
+  height: 200px;
+  width: 777px;
+  margin-left: 300px;
+}
+.ABOUT-TEXT{
+  font-size: 18pt;
+  color: #000000;
+  font-weight:bold;
+  font-family: sans-serif;
+}
+.americamp-logo{
+  width: 100px;
+  height: 50px;
+}
+.Maldives-logo{
+  width: 100px;
+  height: 50px;
+}
+.vitnam-logo{
+  width: 100px;
+  height: 50px;
+}
+.cambodia-logo{
+  width: 100px;
+  height: 50px;
+}
+.tailand-logo{
+  width: 100px;
+  height: 50px;
+}
+table , th , tr , td{
+  border: 4px solid #000000;
+  margin-left: 30px;
+  font-family: sans-serif;
+}
+.other-camps{
+  text-align: center;
+  font-family: sans-serif;
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 18pt;
+}
+#othercamps{
+  background-color: #ffc6c6;
+  width:100%;
+  height: 40px;
+}
+.table-h{
+  color:#2929a3;
+}
+table{
+  margin-left: 660px;
+}
+/*Travel page.css*/
+.video{
+  align:center;
+  margin:30px auto;
+  border: 3px solid #ffffff;
+  border-radius: 15px;
+  width: 550px;
+}
+.travel{
+  margin-left:200px;
+  border: 2px solid #FFFFFF;
+  border-radius: 10px;
+  width:560px;
+  height:315px;
+  margin-bottom: 30px;
+}
+/* contact page*/
+.address{
+  color: #000000;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.number{
+  color: #000000;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.contact{
+  text-align: center;
+  font-family: sans-serif;
+}
+.contact-img{
+ width: 70px;
+ height: 50;
+ padding-left: 10px;
+}
+#contact-1{
+  text-align:center;
+  padding: 50px 0;
+}
+.col-2{
+  width: 50%;
+  float:left;
+  margin-left: 50px;
+}
+input[type="text"]{
+  background-color: white;
+  width: 400px;
+  height: 40px;
+  margin: 5px 0;
+  border:  none;                         1px solid #999;
+  border-radius: 15px;
+  direction: ltr;
+  padding: 0 20px;
+  font-family: sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+}
+textarea{
+  background-color: white;
+  width: 400px;
+  margin: 5px 0;
+  border:none;                                   1px solid #999
+  border-radius: 15px;
+  direction: ltr;
+  padding: 0 20px;
+  font-family: sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+}
+#submit{
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #FF0000;
+  color:#FFFFFF;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 10pt;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+    /*Blog page*/
+.column{
+  font-family: sans-serif;
+  border: 3px solid #FF0000;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  margin-top: 20px;
+  height:380px;
+  float: left;
+  padding:30px;
+  margin-left: 150px;
+}
+.blog1-img{
+  width: 200px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+
+.blog2-img{
+  width: 200px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 50px;
+
+}
+
+.blog3-img{
+  width: 200px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+/*apply and login*/
+.apply-text{
+  text-align: center;
+  color:#ff0000;
+  font-family: sans-serif;
+  font-size: 18pt;
+  font-weight: bold;
+}
+.apply-text2{
+  text-align: left;
+  color: #ff0000;
+  font-family: sans-serif;
+  font-size: 18pt;
+
+}
+.apply-text3{
+  text-align: left;
+  color: #ff0000;
+  font-family: sans-serif;
+  font-size: 18pt;
+}
+.app-fee{
+  color: #000000;
+  font-size: 15pt;
+  margin-left: 20px;
+}
+.apply-que2{
+  font-size: 15pt;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #000000;
+  margin-left: 20px;
+}
+.apply-que{
+  font-size: 15pt;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #000000;
+  margin-left: 20px;
+}
+#applyform input{
+  background-color: white;
+  width: 200px;
+  height: 40px;
+  margin: 5px 0;
+  border:    none;                        1px solid #999;
+  border-radius: 10px;
+  direction: ltr;
+  padding: 2px 20px;
+  font-family: sans-serif;
+  font-size: 10pt;
+  font-weight: bold;
+}
+.apply-name{
+  font-size: 15pt;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.apply-email{
+  font-size: 15pt;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.apply-contact{
+  font-size: 15pt;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#applyform input[name="email"]{
+  width: 440px;
+  margin-left: 166px;
+}
+#applyform input[name="password"]{
+  margin-left: 120px;
+}
+#applyform input[name="mob"]{
+  margin-left: 61px;
+}
+#applyform input[name="chose"]{
+  margin-right: 100px;
+  text-align: left;
+}
+#applyform input[name="copassword"]{
+  margin-left: 50px;
+  text-align: left;
+}
+.apply-lasttext{
+  color:#ff0000;
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 18pt;
+  font-weight: bold;
+}
+.submit{
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #FF0000;
+  color:#FFFFFF;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 10pt;
+  cursor: pointer;
+  transition: 0.1s;
+  float: right;
+  margin-bottom:30px;
+  margin-right: 60px;
+
+}
+#applyform{
+    border: 4px solid white;
+    border-radius: 6px;
+    width: 750px;
+    background-color: #f77979;
+    margin-left: 100px;
+
+}
+.password{
+  font-size: 15pt;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.co-password{
+  font-size: 15pt;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 10px;
+}
+/*PROGRAM*/
+.program-body{
+  background-color: #e3e6ea;
+}
+#text-1 , #text-2 ,#text-3 ,#text-4 {
+    font-size: 15pt;
+    text-align: center;
+
+}
+.program-footer{
+  width: 100%;
+  height:80px;
+  background-color:#ffc6c6;
+  text-align: center;
+  font-size: 7pt;
+  margin-top: 20px;
+}
+.program-text{
+  color: #ff0000;
+  font-family: sans-serif;
+}
+.btn-big , .btn-small{
+    background-color:#f9d5d1;
+    height: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 10pt;
+    cursor: pointer;
+    transition: 0.1s;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+    padding: 15px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+}
+/*Feedback page*/
+.feedback-text{
+  color:#ff0000;
+  font-family: sans-serif;
+}
+
+.feedback-box{
+  border-radius: 7px;
+  margin-left: 30px;
+  width: 80%;
+  height: 200px;
+
+}
+.feedback-btn{
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #FF0000;
+  color:#FFFFFF;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 10pt;
+  cursor: pointer;
+  transition: 0.1s;
+  float: right;
+  margin-right: 70px;
+
+}
+.feedback-text2{
+  font-family: sans-serif;
+  color: #ff0000;
+}
+.rate-img{
+  margin-left: 240px;
+
+}
